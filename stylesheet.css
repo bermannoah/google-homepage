@@ -1,21 +1,69 @@
-/* Structure */
-#input_container {
-	position: relative;
-	padding: 0;
+/* navBar */
+.navBar {
+	list-style-type: none;
 	margin: 0;
+	padding: 10;
+	overflow: hidden;
+	width: auto;
+	height: 50px;
+	float: right;
 }
 
-#mic {
-	position: absolute;
+
+.navBarLi {
+	display: inline;
+	padding: 8px;
+	font-size: 13px;
 }
+
+.textLink {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	color: #000000;
+	opacity: 0.75;
+}
+
+.textLink:hover {
+	text-decoration: underline;
+}
+
+.signInButton {
+	text-decoration: none;
+	background-color: #4285f4;
+	color: #ffffff;
+	padding: 10px 15px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	border-radius: 2px;
+	margin: 10px;
+}
+
+.signInButton:hover {
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.smallSquare {
+	opacity: 0.75;
+	height: 30px;
+	width: 30px;
+}
+
+.smallSquare:hover {
+	opacity: 1;
+}
+
 /* Images */
 .logo  {
 	display: block;
-	padding-top: 109px;
+	padding-top: 120px;
 	height: 92px;
 	width: 272px;
 	position: relative;
 	margin: auto;
+	clear: both;
 }
 
 .mic {
@@ -32,7 +80,7 @@
 
 .formCustom {
 	width: 486px;
-	height: 40px;
+	height: 38px;
 	border: 1px solid #d9d9d9;
 	margin: auto;
 	display: block;
@@ -94,6 +142,10 @@
 	border: 1px solid #c6c6c6;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	color: #222;
+}
+
+.signInButton {
+
 }
 /* Responsiveness Edits */
 @media only screen and (max-device-width: 400px) {
