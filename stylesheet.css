@@ -2,6 +2,7 @@
 
 /* Content */
 .logo  {
+	display: block;
 	padding-top: 109px;
 	height: 92px;
 	width: 272px;
