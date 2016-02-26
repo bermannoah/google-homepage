@@ -2,17 +2,18 @@
 .navBar {
 	list-style-type: none;
 	margin: 0;
-	padding: 10;
+	padding: 10px;
 	overflow: hidden;
 	width: auto;
-	height: 50px;
+	height: 60px;
 	float: right;
+	margin-right: 2.5em;
 }
 
 
 .navBarLi {
 	display: inline;
-	padding: 8px;
+	padding: 4px;
 	font-size: 13px;
 }
 
@@ -46,9 +47,10 @@
 }
 
 .smallSquare {
-	opacity: 0.75;
-	height: 30px;
-	width: 30px;
+	margin-bottom: -10px;
+	margin-right: -5px;
+	height: auto;
+	width: auto;
 }
 
 .smallSquare:hover {
