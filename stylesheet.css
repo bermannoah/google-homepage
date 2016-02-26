@@ -1,26 +1,26 @@
+/* Structure */
+
+/* Content */
+.logo  {
+	padding-top: 109px;
+	height: 92px;
+	width: 272px;
+	position: relative;
+	margin: auto;
+}
+
+
+/* Responsiveness Edits */
+@media only screen and (max-device-width: 400px) {
+	.logo {
+		width: 50%;
+		height: auto;
+		margin: auto;
+	}
+}
+
 /* This controls the whole page!  */
 
 * {
 	background-color:  #ffffff;
-}
-
-/* Structure */
-.header {
-
-}
-
-.search{
-
-}
-
-.
-
-/* Content */
-.logo  {
-	width: 100%;
-	height: auto;
-}
-
-.profile {
-
 }
