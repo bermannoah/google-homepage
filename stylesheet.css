@@ -7,9 +7,8 @@
 	width: auto;
 	height: 60px;
 	float: right;
-	margin-right: 2.5em;
+	margin-right: 1em;
 }
-
 
 .navBarLi {
 	display: inline;
@@ -183,14 +182,6 @@
 
 .signInButton {
 
-}
-/* Responsiveness Edits */
-@media only screen and (max-device-width: 400px) {
-	.logo {
-		width: 50%;
-		height: auto;
-		margin: auto;
-	}
 }
 
 /* This controls the whole page!  */
