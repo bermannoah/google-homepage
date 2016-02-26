@@ -17,6 +17,22 @@
 	position: relative;
 }
 
+/* Buttons */
+
+.buttonSearch {
+	background-color: #f2f2f2;
+	font-family: arial, sans-serif;
+	color: #757575;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	text-align: center;
+	padding: 0 16px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	position: relative;
+}
 
 /* Responsiveness Edits */
 @media only screen and (max-device-width: 400px) {
