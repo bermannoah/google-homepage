@@ -1,6 +1,14 @@
 /* Structure */
+#input_container {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
 
-/* Content */
+#mic {
+	position: absolute;
+}
+/* Images */
 .logo  {
 	display: block;
 	padding-top: 109px;
@@ -10,6 +18,11 @@
 	margin: auto;
 }
 
+.mic {
+	position: absolute;
+}
+
+/* Forms */
 .form {
 	display: block;
 	padding-top: 30px;
@@ -23,6 +36,10 @@
 	border: 1px solid #d9d9d9;
 	margin: auto;
 	display: block;
+	background-image: url("mic.png");
+	background-repeat: no-repeat;
+	background-position: 99%;
+	background-size: 5%;
 
 }
 
@@ -30,6 +47,7 @@
 	border: 1px solid #d9d9d9;
 	border-color: #a0a0a0;
 }
+
 /* Buttons */
 .buttons {
 	width: 487px;
